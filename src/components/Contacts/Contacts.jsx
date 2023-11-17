@@ -2,7 +2,6 @@ import { Contact, Span, Btn } from "./Contacts.styled";
 import { RiDeleteBin6Line } from 'react-icons/ri';
 
 export const Contacts = ({ myContacts, onDelete }) => {
-    
     return (
             <ul>
             {myContacts.map(contact => {
